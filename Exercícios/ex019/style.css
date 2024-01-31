@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+body{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(165, 252, 223);
+}
+
+h1{
+    color:rgb(34, 66, 55);
+}
+
+#do-topo{
+    text-align: center;
+    background-color: black;
+    color: #ffff;
+
+}
+
+.brabo{
+    color: red;
+}
+
+h2{
+    color:rgb(38, 74, 62)
+}
