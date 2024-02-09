@@ -7,8 +7,46 @@
 </head>
 <body>
     <h1>Formulários</h1>
-    <form>
-        <input type="text">
+    <form action="arquivo.php" method="get">
+        <label for="nome">Nome:</label>
+        <input id="nome" type="text" placeholder="Seu nome" required>
+        <br>
+        <label for="senha">Senha:</label>
+        <input id="senha" type="password" placeholder="Sua senha" required>
+        <br>
+        <label for="email">Email:</label>
+        <input id="email" type="email" placeholder="Seu email" required>
+        <br>
+        <input id="dog" type="radio" name="animal" value="cachorro">
+        <label for="dog">Cachorro</label>
+        <br>
+        <input id="cat" type="radio" name="animal" value="gato">
+        <label for="cat">Gato</label>
+        <br>
+        <h2>Cores favoritas</h2>
+        <label for="rosa">Rosa</label>
+        <input id="rosa" type="checkbox" name="cor1" value="rosa">
+        <br>
+        <label for="black">Preto</label>
+        <input id="black" type="checkbox" name="cor2" value="preto">
+        <br> <br>
+        <input type="submit" value="enviar formulário">
+        <br><br><br>
+        <h3>Profissões</h3>
+        <p>escolha mais se adequa a você</p>
+        <select name="profissoes">
+            <option value="N" selected disabled>Escolha uma opção</option>
+            <option value="programação">Programação</option>
+            <option value="medicina">Medicina</option>
+            <option value="Engenharia">Engenharia</option>
+        </select>
+        <input type="submit">
+        <br>
+        <br>
+        <textarea name="texto" cols="35" rows="15" placeholder="Digite sua mensagem"></textarea>
+        <br>
     </form>
+
+    <button>Clique aqui para adquirir</button>
 </body>
 </html>
