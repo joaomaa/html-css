@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+.flex-pai {
+    background-color: red;
+    display: flex;
+}
+
+.flex-pai div {
+    background-color: aliceblue;
+    border: 1px solid black;
+    padding: 30px;
+    margin: 10px;
+    text-align: center;
+}
